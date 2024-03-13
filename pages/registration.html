@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Wrapper -->
+  <div class="container">
+    <!-- Header -->
+    <div>
+      <h1 class="main-header">Registration</h1>
+      <hr>
+    </div>
+
+    <!-- Nav-bar -->
+    <div class="menu-container">
+      <a class="menu-item" href="../index.html">Main Page</a>
+      <a class="menu-item" href="./articles.html">Articles</a>
+      <a class="menu-item" href="./catalog.html">Catalog</a>
+      <a class="menu-item" href="./contacts.html">Contact us</a>
+      <a class="menu-item" href="./gallery.html">Gallery</a>
+      <a class="menu-item" href="./page-nav.html">Page-Navigation</a>
+      <a class="menu-item" href="./registration.html">Registration</a>
+    </div>
+
+    <!-- Registration Form -->
+    <form action="https://tests.fomenko.top/echo/index.php" method="GET">
+
+      <fieldset>
+        <legend>#1 Basic data labels</legend>
+
+
+        <div class="form-group">
+          <label for="login">Login</label>
+          <input id="login" name="login" type="text" placeholder="Login" minlength="3" maxlength="10">
+        </div>
+        <div class="form-group">
+          <label for="passw">Password</label>
+          <input id="passw" name="passw" type="password" placeholder="Password" minlength="3" maxlength="10">
+        </div>
+        <div class="form-group">
+          <label for="age">Age</label>
+          <input id="age" name="age" type="number" placeholder="Age" min="1" max="150">
+        </div>
+        <div class="form-group">
+          <label for="email">Your Email</label>
+          <input id="email" name="email" type="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+          <label for="tel">Phone Number</label>
+          <input id="tel" name="tel" type="tel" placeholder="Number">
+        </div>
+        <div class="form-group">
+          <label for="search">Search</label>
+          <input id="search" name="search" type="search" placeholder="Search">
+        </div>
+        <div class="form-group">
+          <label for="date">Any Data</label>
+          <input id="date" name="date" type="date">
+        </div>
+        <div class="form-group">
+          <label for="month">Any month</label>
+          <input id="month" name="month" type="month">
+        </div>
+        <div class="form-group">
+          <label for="file">Your photo</label>
+          <input id="file" name="file" type="file">
+        </div>
+        <div class="hidden">
+          <input name="hid" type="hidden">
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>#2 Multiple Match</legend>
+
+        <p>Kitchen you like</p>
+
+        <div class="form-group-sm">
+          <input id="ua" name="kit-ua" type="checkbox" value="ua">
+          <label for="ua">Ukrainian</label>
+        </div>
+
+        <div class="form-group-sm">
+          <input id="it" name="kit-it" type="checkbox" value="it">
+          <label for="it">Italian</label>
+        </div>
+
+        <div class="form-group-sm">
+          <input id="gr" name="kit-gr" type="checkbox" value="gr">
+          <label for="gr">Georgian</label>
+        </div>
+
+        <div class="form-group-sm">
+          <input id="ch" name="kit-ch" type="checkbox" value="ch">
+          <label for="ch">Chinese</label>
+        </div>
+
+        <div class="form-group-sm">
+          <input id="jp" name="kit-jp" type="checkbox" value="jp">
+          <label for="jp">Japanese</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>#3 Unique match</legend>
+
+        <p>Your gender</p>
+
+        <div class="form-group-sm">
+          <input id="male" name="gender" type="radio" value="male">
+          <label for="male">Male</label>
+        </div>
+
+        <div class="form-group-sm">
+          <input id="female" name="gender" type="radio" value="female">
+          <label for="female">Female</label>
+        </div>
+
+        <div class="form-group-sm">
+          <input id="other" name="gender" type="radio" value="other">
+          <label for="other">Other</label>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>#4 Opening list</legend>
+        <div class="form-group">
+          <label for="sel">The year of manufacture of your vehicle</label>
+          <select id="sel" name="sel" multiple size="10">
+            <option selected disabled value="">Please chose Year</option>
+            <option value="2011">2011</option>
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2021">2022</option>
+          </select>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>#5 Multiple rows label</legend>
+        <div class="form-group">
+          <label for="txt">Your information</label>
+          <textarea name="txt" id="txt" cols="40" rows="5" placeholder="Please proceed with your storie..."></textarea>
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <legend>#6 Form managing buttons</legend>
+        <div class="form-group">
+          <button class="btn" type="submit">Submit</button>
+        </div>
+        <div class="form-group">
+          <button class="btn" type="reset">Reset</button>
+        </div>
+        <div class="form-group">
+          <button class="btn" type="button" onclick="confirm('You are ready?')">Button</button>
+        </div>
+      </fieldset>
+
+    </form>
+
+    <!-- Footer -->
+    <div class="container">
+      <footer>
+        <div class="footer-bg">
+          <h4>Copyright &copy; Ruslan Zherelyk</h4>
+        </div>
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>
