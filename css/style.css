@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  margin: 0;
+  background-color: #100503;
+  background-image: url(../img/Spider-Man-2-Logo-PNG.png),
+    url(../img/spiderman-ps4-spiderman-superheroes-games-wallpaper-08860d88a030dc18005cb1beb892848a.jpg);
+  font-family: "Montserrat", sans-serif;
+  background-size: 30%, cover;
+  background-position: 100% 10%, 0% 0%;
+  background-repeat: no-repeat;
+}
+a {
+  text-decoration: none;
+}
+/* Wrapper */
+.container {
+  min-height: 100%;
+  max-width: 1280px;
+  width: 100%;
+  max-width: 1280px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
+  margin: auto;
+  position: relative;
+  color: white;
+}
+.main-header {
+  margin-left: 35%;
+}
+.s-header {
+  margin-left: 39%;
+}
+.menu-item {
+  color: white;
+  font-style: italic;
+  margin-left: 8px;
+}
+
+.menu {
+  color: white;
+}
+.menu-container {
+  margin-left: 25%;
+  margin-bottom: 20px;
+}
+
+.main-page-text {
+  max-width: 85%;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  padding: 10px 10px 10px 10px;
+  background-color: #5f1b10;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.first-header {
+  color: #85051b;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid white;
+  font-weight: bold;
+}
+
+.first-header:hover {
+  color: #f02f4f;
+}
+
+.second-header {
+  color: #501620;
+  font-family: "Courier New", Courier, monospace;
+  border-bottom: 1px solid white;
+}
+.second-header:hover {
+  color: #f02f4f;
+}
+
+.third-header {
+  color: #f02f4f;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-bottom: 1px solid white;
+}
+
+.third-header:hover {
+  color: #f02f4f;
+}
+.article-descr {
+  margin-top: 10px;
+  padding-top: 4px;
+  background-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.articles-header {
+  margin-left: 50%;
+}
+
+.article-link {
+  border-bottom: none;
+}
+.article-link:hover {
+  color: #f02f4f;
+}
+.article-link-comments {
+  border-bottom: none;
+}
+.article-link-comments:hover {
+  color: #ff0000;
+}
+.article-text {
+  margin-top: 20px;
+}
+.article-text::first-letter {
+  color: #85051b;
+  font-weight: bold;
+  font-style: italic;
+  font-size: medium;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.catalog-container {
+  padding-left: 16px;
+  background-color: #171a2d;
+  padding-bottom: 20px;
+}
+.catalog-primary-item {
+  font-size: larger;
+  list-style-image: url(../img/8666551_play_circle_icon.svg);
+  margin-bottom: 6px;
+}
+.catalog-secondary-item {
+  font-size: small;
+  list-style-image: url(../img/8666551_play_circle_icon.svg);
+  margin-bottom: 6px;
+}
+li.new:after {
+  content: "new";
+  color: white;
+  background-color: orange;
+  font-size: 90%;
+  padding: 2px;
+  margin-left: 4px;
+}
+.product-list-header {
+  margin-left: 45%;
+}
+
+.galery-container {
+  background-image: url(../img/sm1_mastered_.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+  display: flex;
+}
+.image-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 25%;
+  max-height: 25%;
+}
+.image-container-item {
+  border-color: rgb(184, 34, 64);
+  border-style: solid;
+  border-width: 8px;
+  max-width: 1200px;
+  max-height: 200px;
+  margin-top: 8px;
+}
+
+.image-link {
+  font: bold;
+  color: white;
+  font-style: normal;
+  margin-left: 16px;
+}
+
+.image-container-item:hover {
+  border-color: transparent;
+}
+
+fieldset {
+  max-width: 500px;
+  margin: 25px auto;
+  background-color: rgb(83, 9, 21);
+}
+select,
+input {
+  width: 100%;
+  padding: 10px 20px;
+}
+input[type="file"] {
+  padding: 0;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}
+textarea {
+  width: 100%;
+  padding: 10px 20px;
+  resize: vertical;
+  min-height: 75px;
+  max-height: 33vh;
+}
+legend {
+  transform: translateY(-10px);
+}
+.form-group:not(:first-of-type) {
+  margin: 15px 0 5px;
+}
+.form-group-sm {
+  margin: 10px 0 5px;
+}
+.hidden {
+  display: none;
+}
+.btn {
+  width: 100%;
+  padding: 10px 20px;
+}
+.map-container {
+  margin-left: 25%;
+}
+.address {
+  margin-left: 33%;
+}
+footer {
+  margin-top: 10px;
+  min-height: 100%;
+}
+.footer-bg {
+  padding-top: 2px;
+  background-color: #000000;
+  opacity: 0.5;
+}
